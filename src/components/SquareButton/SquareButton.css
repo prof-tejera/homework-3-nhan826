@@ -1,0 +1,22 @@
+.Default-squarebutton {
+  border: none;
+  color: rgba(0, 0, 0, 0.837);
+  padding: 15px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.Default-squarebutton-active {
+  background-color: rgba(199, 200, 200, 0.779);
+}
+
+.Default-squarebutton:hover {
+  background-color: #698ad1da;
+}
