@@ -7,31 +7,31 @@ import "./App.css";
 const App = () => {
   return (
     <div>
-      <div className="App-component">
+      {/* <div className="App-component">
         <header className="App-header">
           Media Buttons Component (Example)
         </header>
         <div className="App-content">
           <MediaButtons />
         </div>
-      </div>
+      </div> */}
 
       <div className="App-component">
-        <header className="App-header">Login form component (TODO)</header>
+        <header className="App-header">Login form component:</header>
         <div className="App-content">
           <LoginForm />
         </div>
       </div>
 
       <div className="App-component">
-        <header className="App-header">Pager component (TODO)</header>
+        <header className="App-header">Pager component:</header>
         <div className="App-content">
-          <Pager />
+          <Pager/>
         </div>
       </div>
 
       <div className="App-component">
-        <header className="App-header">Radio Buttons component (TODO)</header>
+        <header className="App-header">Radio Buttons component:</header>
         <div className="App-content">
           <RadioButtons />
         </div>

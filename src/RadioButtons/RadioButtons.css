@@ -1,0 +1,31 @@
+.radioSection {
+	display: inline-flex;
+	background-color: #37579c;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 2px 8px 12px -4px rgba(0, 0, 0, 0.22);
+	color: white;
+	border: 3px solid #698ad1;
+}
+
+.radioSection input[type="radio"]:checked+label {
+	background-color: #76cf9f;
+}
+
+
+input[type="radio"] {
+	display: none;
+}
+
+.radioSection label {
+	padding: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	cursor: pointer;
+	transition: ease 0.3s;
+	border: 1px solid #698ad1;
+}
+
+.radioSection label:hover {
+	background-color: #4967a7;
+}
